@@ -5,10 +5,19 @@ using Training_Day1;
 
 //Abstraction 
 
-Dog dog = new Dog();
-dog.SetName(Console.ReadLine());
-Console.WriteLine(dog.Getname());
-dog.Eat();
+
+//Dog dog = new Dog();
+//dog.SetName(Console.ReadLine());
+//Console.WriteLine(dog.Getname());
+//dog.Eat();
+
+UBI ubi = new UBI();
+ubi.services();
+ubi.confidential();
+
+RBI rbi = new UBI();
+rbi.services();
+rbi.confidential();
 
 
 // Polymorphism 

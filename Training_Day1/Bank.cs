@@ -96,4 +96,35 @@ namespace Training_Day1
             }
         }
     }
+
+    // Abstarction 
+
+    public abstract class RBI
+    {
+        public void name()
+        {
+            Console.WriteLine("Rbi bank");
+        }
+
+        public abstract void services();
+
+        public abstract void confidential();
+
+
+       
+    }
+
+    public class UBI : RBI
+    {
+        public override void services()
+        {
+            Console.WriteLine("UBI services");
+        }
+
+        public  override void confidential()
+        {
+            Console.WriteLine("This Information is Confidential");
+        }
+    }
+
 }
