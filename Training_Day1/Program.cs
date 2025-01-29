@@ -3,6 +3,43 @@
 using System.Text;
 using Training_Day1;
 
+// MidWeek Practise on 29th Jan 2025
+//Midweek m = new Midweek();
+//m.Basic();
+
+//ArrayDemo1 a = new ArrayDemo1();
+//a.ArrayPractise();
+
+//MultiDimensionalArray mul = new MultiDimensionalArray();
+//mul.Multidimen();
+
+//Jagarray jagery = new Jagarray();
+//jagery.jagg();
+
+//Bank1 b = new Bank1();
+//b.branc();
+//b.Id1 = 1;
+//b.Sname = "Ss";
+
+
+
+//SBI1 s = new SBI1();
+//s.branc();
+//s.Id1 = 2;
+//Console.WriteLine(s.Id1);
+
+Bmw b = new Bmw();
+b.modelnumber();
+//b.model();
+
+//Benz b1 = new Benz();
+//b1.modelnumber();
+//b1.model();
+
+//Bike b = new Bike();
+//Bike.model();
+
+
 //Abstraction 
 
 
@@ -11,13 +48,13 @@ using Training_Day1;
 //Console.WriteLine(dog.Getname());
 //dog.Eat();
 
-UBI ubi = new UBI();
-ubi.services();
-ubi.confidential();
+//UBI ubi = new UBI();
+//ubi.services();
+//ubi.confidential();
 
-RBI rbi = new UBI();
-rbi.services();
-rbi.confidential();
+//RBI rbi = new UBI();
+//rbi.services();
+//rbi.confidential();
 
 
 // Polymorphism 
