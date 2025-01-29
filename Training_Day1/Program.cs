@@ -3,6 +3,35 @@
 using System.Text;
 using Training_Day1;
 
+//Abstraction 
+
+Dog dog = new Dog();
+dog.SetName(Console.ReadLine());
+Console.WriteLine(dog.Getname());
+dog.Eat();
+
+
+// Polymorphism 
+
+//Bank mainbank = new Bank();
+//mainbank.Name = "RBI";
+//mainbank.Accounttype();
+
+
+//SBI sbibank = new SBI();
+//sbibank.Bankname();
+//sbibank.Accounttype();
+
+//HDFC hdfcbank = new HDFC();
+//hdfcbank.BankName();
+//hdfcbank.Accounttype();
+
+//IDBI idbibank = new IDBI();
+//idbibank.Accounttype();
+//// TO acess Static methods we need to use the Class Name 
+//IDBI.BankDetails();
+////idbibank.Name = "IDBI";
+
 // Sinlge Dimension Array 
 // To Call the method of Array in ArrayDemo Class  
 //ArrayDemo a = new ArrayDemo();
@@ -25,8 +54,8 @@ using Training_Day1;
 //t.Task();
 
 
-Task1 t2 = new Task1();
-t2.Task2();
+//Task1 t2 = new Task1();
+//t2.Task2();
 //Console.WriteLine("Hello_World");
 
 //Console.WriteLine("Enter the value of X");
