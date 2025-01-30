@@ -3,10 +3,24 @@
 using System.Text;
 using Training_Day1;
 
-Pop p = new Pop();
-Pop p1 = new Pop(1,"Shiva");
-Pop p2 = new Pop(100, "Shiva", "Kailash");
-Pop.log();
+// Collections
+
+// Generic Collection
+//Employee e = new Employee();
+//e.CreateEmployee<int>(1);
+//e.CreateEmployee<string>("Shiva");
+//e.CreateEmployee<double>(1.43);
+
+// Non - Generic Collection 
+
+Employee e = new Employee();
+e.Createemploy();
+
+//Constructor Overloading 
+//Pop p = new Pop();
+//Pop p1 = new Pop(1,"Shiva");
+//Pop p2 = new Pop(100, "Shiva", "Kailash");
+//Pop.log();
 
 //punjabbank p1 = new punjabbank();
 //p1.print1();
@@ -17,12 +31,15 @@ Pop.log();
 //Midweek m = new Midweek();
 //m.Basic();
 
+//1 D Arrays
 //ArrayDemo1 a = new ArrayDemo1();
 //a.ArrayPractise();
 
+//Multi Dimension Array 
 //MultiDimensionalArray mul = new MultiDimensionalArray();
 //mul.Multidimen();
 
+//Jagged Array
 //Jagarray jagery = new Jagarray();
 //jagery.jagg();
 
