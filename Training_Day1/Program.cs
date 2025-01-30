@@ -3,6 +3,16 @@
 using System.Text;
 using Training_Day1;
 
+Pop p = new Pop();
+Pop p1 = new Pop(1,"Shiva");
+Pop p2 = new Pop(100, "Shiva", "Kailash");
+Pop.log();
+
+//punjabbank p1 = new punjabbank();
+//p1.print1();
+//Iob i = new Iob("Shiva",15);
+//i.print();
+
 // MidWeek Practise on 29th Jan 2025
 //Midweek m = new Midweek();
 //m.Basic();
@@ -28,8 +38,8 @@ using Training_Day1;
 //s.Id1 = 2;
 //Console.WriteLine(s.Id1);
 
-Bmw b = new Bmw();
-b.modelnumber();
+//Bmw b = new Bmw();
+//b.modelnumber();
 //b.model();
 
 //Benz b1 = new Benz();

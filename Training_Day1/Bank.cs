@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Security.Cryptography.X509Certificates;
 using System.Security.Principal;
 using System.Text;
@@ -127,4 +128,91 @@ namespace Training_Day1
         }
     }
 
+
+    // Constructor Overloading
+    public class Iob
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public Iob()
+        {
+            Console.WriteLine("Default Constructor");
+        }
+
+        public Iob(string name , int id)
+        {
+            Name = name;
+            Id = id;
+        }
+
+        public void print()
+        {
+            //Name = Console.ReadLine();
+            //Id = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(Name);
+            Console.WriteLine(Id);
+
+        }
+    }
+   
+    public class punjabbank
+    {
+        public int Cid { get; set; }
+        public string Cname { get; set; }
+
+        public punjabbank()
+        {
+            Console.WriteLine("Default Constructor");
+        }
+        public punjabbank(int id ,string name)
+        {
+            Cid = id;
+            Cname = name;
+        }
+
+        public void print1()
+        {
+            Console.WriteLine("Enter id");
+           int  id = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(Cid);
+
+            Console.WriteLine("Enter name");
+           string name = Console.ReadLine();
+
+            Console.WriteLine(Cname);
+        }
+    }
+
+    public class Pop
+    {
+        public Pop()
+        {
+            Console.WriteLine("Default Constructor");
+        }
+        public Pop(int id , string name)
+        {
+            Console.WriteLine(id);
+            Console.WriteLine(name);
+        }
+
+        static Pop()
+        {
+            Console.WriteLine("Static Consructor");
+        }
+      
+
+        public Pop(int age, string location, string area)
+        {
+            Console.WriteLine(age);
+            Console.WriteLine(location);
+            Console.WriteLine(area);
+        }
+
+        public static  void log()
+        {
+            Console.WriteLine("Static Method");
+        }
+    }
 }
