@@ -3,10 +3,17 @@
 using System.Text;
 using Training_Day1;
 
+//File Operations 
+
+Transaction t = new Transaction(1, "Shiva Travels", "Bus booking", "Cash");
+//t.WriteTransaction();
+//t.ReadTransaction();
+t.ReadTransaction1();
+
 //Exceptional 
 
-Employee e = new Employee();
-e.Exceptional();
+//Employee e = new Employee();
+//e.Exceptional();
 
 // Collections
 
