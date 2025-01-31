@@ -3,6 +3,11 @@
 using System.Text;
 using Training_Day1;
 
+//Exceptional 
+
+Employee e = new Employee();
+e.Exceptional();
+
 // Collections
 
 // Generic Collection
@@ -13,8 +18,8 @@ using Training_Day1;
 
 // Non - Generic Collection 
 
-Employee e = new Employee();
-e.Createemploy();
+//Employee e = new Employee();
+//e.Createemploy();
 
 //Constructor Overloading 
 //Pop p = new Pop();

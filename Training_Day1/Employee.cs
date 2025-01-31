@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -139,6 +140,74 @@ namespace Training_Day1
             }
 
             #endregion
+
+           
+        }
+
+        public void Exceptional()
+        {
+
+            #region Exception
+            #endregion
+
+            try
+            {
+                Console.WriteLine("Enter 2 numbers");
+                int num1 = Convert.ToInt32(Console.ReadLine());
+                int num2 = Convert.ToInt32(Console.ReadLine());
+
+                int result = num1 / num2;
+                Console.WriteLine(result);
+
+            }
+            catch (DivideByZeroException e)
+            {
+                Console.WriteLine("The Number cannot be divided by Zero");
+            }
+            finally
+            {
+                Console.WriteLine("The Finally Block");
+            }
+
+            try
+            {
+                int[] arr = { 1, 2, 3 };
+                Console.WriteLine(arr[5]);
+            }
+            catch(IndexOutOfRangeException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+
+            try
+            {
+                Console.WriteLine("Enter values of x and y");
+                int x = Convert.ToInt32(Console.ReadLine());
+                int y = Convert.ToInt32(Console.ReadLine());
+
+                int result = x / y;
+                Console.WriteLine(result);
+            }
+            catch (DivideByZeroException e)
+            {
+                Console.WriteLine("Division by Zero Exception");
+            }
+            catch (IndexOutOfRangeException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            catch(FileLoadException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            finally
+            {
+                Console.WriteLine("Finally Block is Called");
+            }
         }
     }
 }
