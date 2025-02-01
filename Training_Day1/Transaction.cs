@@ -38,6 +38,21 @@ namespace Training_Day1
 
         }
 
+        public void Appendtransaction()
+        {
+            FileStream fs = new FileStream("transaction.txt",FileMode.Append,FileAccess.Write);
+            StreamWriter sw = new StreamWriter(fs);
+
+            sw.WriteLine(TransactionId);
+            sw.WriteLine(TransactionName);
+            sw.WriteLine(Descrption);
+            sw.WriteLine(Type);
+            sw.WriteLine("----------------------");
+            sw.Close();
+            fs.Close();
+
+        }
+
         public void ReadTransaction()
         {
             FileStream fs1 = new FileStream("transaction.txt",FileMode.Open, FileAccess.Read);

@@ -3,13 +3,32 @@
 using System.Text;
 using Training_Day1;
 
+
+//Hands On on Files 
+
+//Network n = new Network(100,12545210,96321452, 1/16/2021, "Success", "Jioo");
+DateTime dt = DateTime.ParseExact("1/16/2021 3:31:22 PM", "M/d/yyyy h:mm:ss tt", System.Globalization.CultureInfo.InvariantCulture);
+Network n = new Network(100, 12545210, 96321452, dt, "Success", "Jioo");
+//Network n = new Network(100, 12545210, 96321452, new DateTime(2021, 1, 16), "Success", "Jioo");
+//Console.WriteLine(n.Date.ToString("MM/dd/yyyy"));
+//n.AppendingFile();
+n.ReadFile();
+
 //File Operations 
 
-Transaction t = new Transaction(1, "Shiva Travels", "Bus booking", "Cash");
+//Transaction t = new Transaction(1, "Shiva Travels", "Bus booking", "Cash");
 //t.WriteTransaction();
 //t.ReadTransaction();
-t.ReadTransaction1();
+//t.ReadTransaction1();
 
+// If we want to add multiple items to the file. We should make the FileMode as Append (FileMode.Append) is used to add multiple values to the same file.
+
+//Transaction t1 = new Transaction(2, "Ram Travels", "Train booking", "DebitCard");
+//t1.Appendtransaction();
+//Transaction t2 = new Transaction(3, "Krishna Travles", "Car Booking", "CreditCardCard");
+//t2.Appendtransaction();
+
+//t2.ReadTransaction1();
 //Exceptional 
 
 //Employee e = new Employee();
