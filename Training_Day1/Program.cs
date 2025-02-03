@@ -4,6 +4,17 @@ using System.Text;
 using Training_Day1;
 
 
+// Extension Method 
+
+
+//int val = 25;
+//int res=val.Read();
+//Console.WriteLine(res);
+
+string myname = "Shiva";
+string result=myname.Print();
+Console.WriteLine(result);
+
 // Sunday (02-02-2025) Practise 
 
 //Week1 w = new Week1();
@@ -48,8 +59,8 @@ using Training_Day1;
 
 // Exception handling 
 
-Excemp e = new Excemp();
-e.exc();
+//Excemp e = new Excemp();
+//e.exc();
 
 //Hands On on Files 
 
