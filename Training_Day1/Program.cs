@@ -4,16 +4,23 @@ using System.Text;
 using Training_Day1;
 
 
-// Extension Method 
+// Delegates
 
+DelegateDemo demo = new DelegateDemo();
+
+DelegateBasic  d= new DelegateBasic(demo.Getname);
+d += new DelegateBasic(demo.GetRollno);
+d -= new DelegateBasic(demo.GetClass);
+d();
+// Extension Method 
 
 //int val = 25;
 //int res=val.Read();
 //Console.WriteLine(res);
 
-string myname = "Shiva";
-string result=myname.Print();
-Console.WriteLine(result);
+//string myname = "Shiva";
+//string result=myname.Print();
+//Console.WriteLine(result);
 
 // Sunday (02-02-2025) Practise 
 
