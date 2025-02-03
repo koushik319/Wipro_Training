@@ -4,15 +4,58 @@ using System.Text;
 using Training_Day1;
 
 
+// Sunday (02-02-2025) Practise 
+
+//Week1 w = new Week1();
+//w.OneArray();
+//w.Multidimension();
+//w.Jagged();
+
+// Virtual and Override 
+
+//DBS dbs = new DBS();
+//dbs.Bankname();
+//dbs.Accounttype();
+//DBS.Region();
+
+// Abstarction 
+
+//Lambo l = new Lambo();
+//l.GetDetails();
+//l.Type();
+
+
+// Constructor
+
+//Books b = new Books(1);
+//Books b1 = new Books(1, "Wings of Fire");
+
+// Collections 
+
+// Non-Generic Collection
+
+//NonGenCollect cl = new NonGenCollect();
+//cl.Alist();
+//cl.Stack1();
+//cl.Queue1();
+
+//Generic Collection
+
+//GenCollect g1 = new GenCollect();
+//g1.Lis();
+//g1.Dicti();
+
+
+// Exception handling 
+
+Excemp e = new Excemp();
+e.exc();
+
 //Hands On on Files 
 
-//Network n = new Network(100,12545210,96321452, 1/16/2021, "Success", "Jioo");
-DateTime dt = DateTime.ParseExact("1/16/2021 3:31:22 PM", "M/d/yyyy h:mm:ss tt", System.Globalization.CultureInfo.InvariantCulture);
-Network n = new Network(100, 12545210, 96321452, dt, "Success", "Jioo");
-//Network n = new Network(100, 12545210, 96321452, new DateTime(2021, 1, 16), "Success", "Jioo");
-//Console.WriteLine(n.Date.ToString("MM/dd/yyyy"));
-//n.AppendingFile();
-n.ReadFile();
+//DateTime dt = DateTime.ParseExact("1/16/2021 3:31:22 PM", "M/d/yyyy h:mm:ss tt", System.Globalization.CultureInfo.InvariantCulture);
+//Network n = new Network(100, 12545210, 96321452, dt, "Success", "Jioo");
+//n.ReadFile();
 
 //File Operations 
 
