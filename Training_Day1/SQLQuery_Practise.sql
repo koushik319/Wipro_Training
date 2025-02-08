@@ -51,7 +51,7 @@ when 3 then 'no-status'
 End 'Payment_Status'
 from policy;
 
-/* Number Functions /*
+/* Number Functions */
 
 select abs(-15);
 
