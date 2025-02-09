@@ -1,0 +1,3 @@
+use EmpSample_#OK;
+
+select Name,MaritalStatus,DOB,Nationality,EmployeeNumber  from tblEmployees  GOselect Name,MaritalStatus,DOB,Nationality,EmployeeNumber,Case MaritalStatuswhen null then 'un-known'when 0 then 'unmarries'when 1 then 'married'end 'Marital_Status'from tblEmployeesselect Name from  tblEmployees;select namefrom tblEmployeeswhere  len(name)-len(replace(name,' ',''))=0;select namefrom tblEmployeeswhere  len(name)-len(replace(name,' ',''))=1;
